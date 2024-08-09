@@ -1,0 +1,74 @@
+<main>
+    <app-fundo></app-fundo>
+    <div class="main-content">
+        <header class="app-header">
+            <section class="img-h2">
+                <img ngSrc="public/CFLogobg.png" width="160" height="160">
+                <h2>Caio Feiria</h2>
+            </section>
+            <section class="list">
+                <ul class="links-list">
+                    <li><a href="https://api.whatsapp.com/send?phone=5516997007668&text=Ol%C3%A1,%20visualizei%20seus%20projetos%20e%20gostaria%20de%20conhecer%20um%20pouco%20mais%20sobre%20seus%20trabalhos%20e%20sua%20experi%C3%AAncia!%20"><img ngSrc="public/whatsapp.png" width="40" height="40"></a></li>
+                    <li><a href="mailto:caio.feiria@gmail.com"><img ngSrc="public/email.png" width="40" height="40"></a></li>
+                    <li><a href="https://www.linkedin.com/in/caiofeiria/"><img ngSrc="public/linkedin.png" width="40" height="40"></a></li>
+                    <li><a href="https://www.instagram.com/caioufe/"><img ngSrc="public/instagram.png" width="40" height="40"></a></li>
+                    <li><a href="https://github.com/CaioFeiria"><img ngSrc="public/github.png" width="40" height="40"></a></li>
+                </ul>
+            </section>
+        </header>
+        <section class="hidden-content">
+            <div class="cards">
+                <div class="sobremim">
+                    <mat-card appearance="outlined">
+                        <mat-card-title><h5  id="titulo">Sobre mim</h5></mat-card-title>
+                        <mat-card-content><p>Olá, sou Caio, tenho 21 anos e sou apaixonado por tecnologia e programação.
+                            Desde que comecei a explorar o mundo da programação há um tempo, meu fascínio por
+                            como a tecnologia pode resolver problemas e criar novas possibilidades só aumentou. Estou
+                            atualmente cursando Sistemas de Informação e ansioso para aplicar meu conhecimento
+                            acadêmico em um ambiente profissional.</p></mat-card-content>
+                    </mat-card>
+                </div>
+                <div class="hardskills">
+                    <mat-card appearance="outlined">
+                        <mat-card-title><h5  id="titulo">HardSkills</h5></mat-card-title>
+                        <mat-card-content>
+                            <ul>
+                                <li>Angular</li>
+                                <li>TypeScript</li>
+                                <li>C# .NetFramework</li>
+                                <li>ASP.NET</li>
+                                <li>SQL Server</li>
+                                <li>HTML</li>
+                                <li>CSS</li>
+                            </ul>
+                        </mat-card-content>
+                    </mat-card>
+                </div>
+            </div>
+            <section class="cards-projeto">
+                    <div class="projeto-item">
+                        <mat-card appearance="outlined">
+                            <mat-card-title><h5 id="titulo">Projeto</h5></mat-card-title>
+                            <mat-card-subtitle><h6 id="subtitulo">Task Management System</h6></mat-card-subtitle>
+                            <img ngSrc="public/hometaskmanagement.png" width="632" height="300">
+                            <mat-card-content></mat-card-content>
+                            <mat-card-actions align="end">
+                                <button (click)="openDialogTaskManagement()" mat-raised-button>Sobre<mat-icon>info</mat-icon></button>
+                            </mat-card-actions>
+                        </mat-card>
+                    </div>
+                    <div class="projeto-item">
+                        <mat-card appearance="outlined">
+                            <mat-card-title><h5 id="titulo">Projeto</h5></mat-card-title>
+                            <mat-card-subtitle><h6 id="subtitulo">Consultorio</h6></mat-card-subtitle>
+                            <img ngSrc="public/consultorio-home.png" width="632" height="300">
+                            <mat-card-content></mat-card-content>
+                            <mat-card-actions align="end">
+                                <button (click)="openDialogEmBreve()" mat-raised-button>Sobre<mat-icon>info</mat-icon></button>
+                            </mat-card-actions>
+                        </mat-card>
+                    </div>
+            </section>
+        </section>
+    </div>
+</main>
