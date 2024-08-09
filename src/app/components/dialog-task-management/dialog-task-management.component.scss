@@ -1,0 +1,25 @@
+.dialog-content{
+
+    img{
+        padding-bottom: 12px;
+    }
+}
+
+.btnGit{
+    display: flex;
+    flex-direction: row;
+
+    .containerGit {
+        display: flex;
+        align-items: center;
+    }
+
+    .pGit {
+        margin: 0;
+        color: black;
+    }
+    
+    .imgGit {
+        margin-right: 8px;
+    }
+}
