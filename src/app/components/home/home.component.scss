@@ -17,6 +17,16 @@
         font-style: italic;
         color: azure;
     }
+
+    #curriculo{
+        padding-top: 60%;
+
+        a{
+            color: white;
+            background-color: black;
+            filter: drop-shadow(0 0 10px #FFF);
+        }
+    }
 }
 .img-h2{
     flex-direction: column;
@@ -126,6 +136,10 @@
         width: 80%;
         height: 60%;
         padding: 16px;
+    }
+
+    button{
+        color: black;
     }
 }
 
