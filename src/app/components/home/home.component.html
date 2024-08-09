@@ -32,26 +32,27 @@
                     <mat-card appearance="outlined">
                         <mat-card-title><h5  id="titulo">HardSkills</h5></mat-card-title>
                         <mat-card-content>
-                            <ul>
-                                <li>Angular</li>
-                                <li>TypeScript</li>
-                                <li>C# .NetFramework</li>
-                                <li>ASP.NET</li>
-                                <li>SQL Server</li>
-                                <li>HTML</li>
-                                <li>CSS</li>
+                            <ul class="list-icons">
+                                <li><img id="icon-angular" ngSrc="public/angular.png" width="73" height="73"><p>Angular</p></li>
+                                <li id="icon-ts"><img ngSrc="public/typescript.png" width="60" height="60"><p>TypeScript</p></li>
+                                <li><img id="icon-cs" ngSrc="public/csharp.png" width="60" height="60"><p>C# .NetFramework</p></li>
+                                <li id="icon-asp"><img ngSrc="public/aspnet.png" width="60" height="60"><p>ASP.NET</p></li>
+                                <li id="icon-sql"><img ngSrc="public/sql-server.png" width="60" height="60"><p>SQL Server</p></li>
+                                <li id="icon-html"><img ngSrc="public/html.png" width="60" height="60"><p>HTML</p></li>
+                                <li id="icon-css"><img ngSrc="public/css.png" width="60" height="60"><p>CSS</p></li>
                             </ul>
                         </mat-card-content>
                     </mat-card>
                 </div>
             </div>
-            <section class="cards-projeto">
+            <div class="cards-projeto">
                     <div class="projeto-item">
                         <mat-card appearance="outlined">
                             <mat-card-title><h5 id="titulo">Projeto</h5></mat-card-title>
                             <mat-card-subtitle><h6 id="subtitulo">Task Management System</h6></mat-card-subtitle>
-                            <img ngSrc="public/hometaskmanagement.png" width="632" height="300">
-                            <mat-card-content></mat-card-content>
+                            <mat-card-content class="content-img">
+                                <img ngSrc="public/hometaskmanagement.png" width="632" height="300">
+                            </mat-card-content>
                             <mat-card-actions align="end">
                                 <button (click)="openDialogTaskManagement()" mat-raised-button>Sobre<mat-icon>info</mat-icon></button>
                             </mat-card-actions>
@@ -61,14 +62,15 @@
                         <mat-card appearance="outlined">
                             <mat-card-title><h5 id="titulo">Projeto</h5></mat-card-title>
                             <mat-card-subtitle><h6 id="subtitulo">Consultorio</h6></mat-card-subtitle>
-                            <img ngSrc="public/consultorio-home.png" width="632" height="300">
-                            <mat-card-content></mat-card-content>
+                            <mat-card-content class="content-img">
+                                <img ngSrc="public/consultorio-home.png" width="632" height="300">
+                            </mat-card-content>
                             <mat-card-actions align="end">
                                 <button (click)="openDialogEmBreve()" mat-raised-button>Sobre<mat-icon>info</mat-icon></button>
                             </mat-card-actions>
                         </mat-card>
                     </div>
-            </section>
+             </div>
         </section>
     </div>
 </main>
