@@ -7,6 +7,7 @@ import { DialogTaskManagementComponent } from '../dialog-task-management/dialog-
 import { DialogEmBreveComponent } from '../dialog-em-breve/dialog-em-breve.component';
 import { MatIconModule } from '@angular/material/icon';
 import { FundoComponent } from '../fundo/fundo.component';
+import { FooterComponent } from '../../footer/footer.component';
 
 @Component({
   selector: 'app-home',
@@ -17,7 +18,8 @@ import { FundoComponent } from '../fundo/fundo.component';
     MatButtonModule,
     MatIconModule,
     NgIf,
-    FundoComponent
+    FundoComponent,
+    FooterComponent
   ],
   templateUrl: './home.component.html',
   styleUrl: './home.component.scss'

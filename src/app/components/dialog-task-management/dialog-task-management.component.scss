@@ -1,7 +1,29 @@
 .dialog-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 
     img{
+        width: 100%;
+        height: 100%;
         padding-bottom: 12px;
+    }
+}
+
+.btns-dialog{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+
+    .containerGit{
+        font-size: 13px;
+    }
+
+    button{
+        color: black;
+        font-size: 13px;
     }
 }
 

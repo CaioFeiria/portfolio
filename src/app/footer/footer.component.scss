@@ -1,0 +1,16 @@
+footer{
+    padding: 4px 0;
+    background-color: white;
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+}
+
+@media (min-width: 1024px){
+    footer{
+        padding: 15px 0;
+        font-size: 20px;
+        text-align: center;
+    }
+}
