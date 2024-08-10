@@ -1,8 +1,15 @@
+#titlePrincipal{
+    font-family:  Exo, sans-serif;
+    font-weight: 600;
+}
+
 .dialog-content{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    font-family:  Poppins, sans-serif;
+    font-weight: 500;
 
     img{
         width: 100%;
