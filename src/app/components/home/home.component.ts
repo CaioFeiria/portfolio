@@ -8,6 +8,7 @@ import { DialogEmBreveComponent } from '../dialog-em-breve/dialog-em-breve.compo
 import { MatIconModule } from '@angular/material/icon';
 import { FundoComponent } from '../fundo/fundo.component';
 import { FooterComponent } from '../../footer/footer.component';
+import { DialogLoginpageComponent } from '../dialog-loginpage/dialog-loginpage.component';
 
 @Component({
   selector: 'app-home',
@@ -41,5 +42,13 @@ export class HomeComponent {
     dialogRef.afterClosed().subscribe(() => {
     });
   }
+
+  openDialogLoginPage() {
+    const dialogRef = this.dialog.open(DialogLoginpageComponent);
+
+    dialogRef.afterClosed().subscribe(() => {
+    });
+  }
+
 }
 
